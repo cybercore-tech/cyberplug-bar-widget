@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "darkstardevx.cyberplug",
+  "name": "Cyberplug",
+  "version": "0.1.0",
+  "author": "darkstardevx",
+  "description": "Bar icon that opens Cyberplug, a terminal plugin manager for Omarchy.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Cyberplug",
+    "description": "Open the Cyberplug plugin manager",
+    "category": "Utilities",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
