@@ -1,33 +1,18 @@
-# Cyberplug bar widget
+# cyberplug-bar-widget
 
-An Omarchy bar icon that opens [Cyberplug](https://github.com/darkstardevx/cyberplug) —
-a terminal plugin manager for Omarchy's Quattro shell — in a floating
-terminal window.
+**This repo is retired.** Cyberplug is now a single Omarchy plugin package:
 
-Requires the `cyberplug` binary itself to be installed first.
+```bash
+omarchy plugin add https://github.com/darkstardevx/cyberplug.git --enable
+```
 
-## Install
+Canonical source: [darkstardevx/cyberplug](https://github.com/darkstardevx/cyberplug)
 
-    omarchy plugin add https://github.com/darkstardevx/cyberplug-bar-widget.git --enable
+Remove (new id):
 
-Then run this repo's `install.sh` to place the launcher script:
+```bash
+omarchy plugin remove io.github.darkstardevx.cyberplug
+```
 
-    ~/.config/omarchy/plugins/darkstardevx.cyberplug/install.sh
-
-Or clone Cyberplug's main repo and run its own `install.sh`, which
-offers to install this widget automatically alongside the binary.
-
-## What it does
-
-Clicking the icon runs `cyberplug-toggle`, which:
-
-- Focuses the existing Cyberplug window if one is already open
-- Otherwise opens a new floating terminal running `cyberplug`
-
-It auto-detects your terminal (Ghostty, Alacritty, Kitty, foot, or
-falls back to `xdg-terminal-exec`) and matches windows by title, since
-not every terminal reliably honors a custom window class from the CLI.
-
-## License
-
-MIT
+If you still have the old `darkstardevx.cyberplug` or `custom.cyberplug` widget
+installed, remove it and add the URL above.

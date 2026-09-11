@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "darkstardevx.cyberplug",
+  "id": "io.github.darkstardevx.cyberplug",
   "name": "Cyberplug",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "darkstardevx",
-  "description": "Bar icon that opens Cyberplug, a terminal plugin manager for Omarchy.",
-  "kinds": [
-    "bar-widget"
-  ],
+  "license": "MIT",
+  "description": "Retired mirror — use https://github.com/darkstardevx/cyberplug instead.",
+  "kinds": ["bar-widget"],
   "entryPoints": {
     "barWidget": "BarWidget.qml"
   },
   "barWidget": {
-    "displayName": "Cyberplug",
-    "description": "Open the Cyberplug plugin manager",
+    "displayName": "Cyberplug (retired mirror)",
+    "description": "Redirect: install from darkstardevx/cyberplug",
     "category": "Utilities",
     "allowMultiple": false,
     "defaultSection": "right"
