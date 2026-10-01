@@ -6,7 +6,7 @@
 omarchy plugin add https://github.com/cybercore-tech/cyberplug.git --enable
 ```
 
-Canonical source: [darkstardevx/cyberplug](https://github.com/cybercore-tech/cyberplug)
+Canonical source: [cybercore-tech/cyberplug](https://github.com/cybercore-tech/cyberplug)
 
 Remove (new id):
 
