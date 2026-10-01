@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" data-theme="plug-signal-lost">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>cyberplug-bar-widget — moved to Cyberplug</title>
+  <meta name="description" content="cyberplug-bar-widget is retired. Cyberplug is now a single Omarchy plugin package.">
+  <meta name="theme-color" content="#09080f">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M20 50 H80 M60 30 L80 50 L60 70' fill='none' stroke='%23ff9000' stroke-width='10'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    :root { --a1: var(--orange); --a2: var(--pink); --a3: var(--cyan); }
+    .moved { min-height: calc(100vh - 9rem); display: grid; place-items: center; text-align: center; padding: 3rem 0; }
+    .moved h1 { font-size: clamp(2.8rem, 8vw, 6rem); font-weight: 900; }
+    .moved .tagline { margin: 1.4rem auto 0; max-width: 40rem; font: 600 clamp(1.05rem, 2vw, 1.35rem)/1.4 var(--sans); }
+    .moved .lede { margin: 1rem auto 0; max-width: 40rem; color: var(--muted); }
+    .route { display: flex; align-items: center; justify-content: center; gap: 1rem; margin: 2.4rem 0 0; font: .8rem/1 var(--mono); letter-spacing: .14em; flex-wrap: wrap; }
+    .route .from { color: var(--muted); text-decoration: line-through; }
+    .route .arrow { color: var(--a1); font-size: 1.4rem; animation: nudge 1.4s ease-in-out infinite; }
+    @keyframes nudge { 50% { transform: translateX(8px); } }
+    .route .to { color: var(--a3); }
+    .moved .cta { justify-content: center; }
+    .moved pre.code { text-align: left; max-width: 44rem; margin: 2rem auto 0; }
+  </style>
+  <script>
+    window.SITE = {
+      defaultTheme: 'plug-signal-lost',
+      mashups: [
+        { id: 'plug-signal-lost', label: 'SIGNAL LOST', base: 'dystopian-ruin', accent: 'synthwave-retro' }
+      ]
+    };
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="https://cybercore-tech.github.io/" data-brand-phase="0" aria-label="Cybercore Tech home"><span class="brand-emblem">CC</span><span class="brand-name">CYBERCORE <b>/</b> CYBERPLUG BAR WIDGET<small>RETIRED</small></span></a>
+    <div class="theme-picker" style="margin-left:auto"><span class="theme-label">THEME</span><button id="themeButton" class="theme-button" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="themeMenu">LOADING THEMES…</button><div id="themeMenu" class="theme-menu" role="listbox" aria-label="Theme" hidden></div></div>
+  </header>
+
+  <main class="wrap moved">
+    <div>
+      <p class="eyebrow">This repository is retired</p>
+      <h1><span class="glitch" data-text="MOVED">MOVED</span><br><em>TO CYBERPLUG.</em></h1>
+      <p class="tagline">The bar widget now ships inside Cyberplug — one Omarchy plugin package, one install.</p>
+      <p class="lede">This repo was a separate mirror of the widget. It's kept for history only; new installs and updates come from Cyberplug.</p>
+      <div class="route"><span class="from">cyberplug-bar-widget</span><span class="arrow">➜</span><span class="to">cybercore-tech/cyberplug</span></div>
+      <div class="cta"><a class="btn" href="https://cybercore-tech.github.io/cyberplug/">CYBERPLUG ↗</a><a class="btn ghost" href="https://github.com/cybercore-tech/cyberplug">SOURCE ↗</a></div>
+<pre class="code" data-copy><code><span class="c"># install the current package</span>
+omarchy plugin add https://github.com/cybercore-tech/cyberplug.git --enable
+
+<span class="c"># still have the old widget? remove it first</span>
+omarchy plugin remove darkstardevx.cyberplug    <span class="c"># or custom.cyberplug</span></code></pre>
+    </div>
+  </main>
+
+  <footer><span>CYBERCORE TECH / CYBERPLUG BAR WIDGET (RETIRED) / MIT / © <span id="year"></span></span><span><a href="https://cybercore-tech.github.io/">CYBERCORE-TECH.GITHUB.IO</a></span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
