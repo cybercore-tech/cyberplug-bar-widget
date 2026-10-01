@@ -3,10 +3,10 @@
 **This repo is retired.** Cyberplug is now a single Omarchy plugin package:
 
 ```bash
-omarchy plugin add https://github.com/darkstardevx/cyberplug.git --enable
+omarchy plugin add https://github.com/cybercore-tech/cyberplug.git --enable
 ```
 
-Canonical source: [darkstardevx/cyberplug](https://github.com/darkstardevx/cyberplug)
+Canonical source: [darkstardevx/cyberplug](https://github.com/cybercore-tech/cyberplug)
 
 Remove (new id):
 
