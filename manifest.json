@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "author": "darkstardevx",
   "license": "MIT",
-  "description": "Retired mirror — use https://github.com/darkstardevx/cyberplug instead.",
+  "description": "Retired mirror — use https://github.com/cybercore-tech/cyberplug instead.",
   "kinds": ["bar-widget"],
   "entryPoints": {
     "barWidget": "BarWidget.qml"

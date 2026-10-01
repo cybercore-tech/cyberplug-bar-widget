@@ -11,7 +11,7 @@ echo "Installed cyberplug-toggle to ~/.local/bin"
 echo ""
 if ! command -v cyberplug >/dev/null 2>&1; then
     echo "Note: the 'cyberplug' binary itself isn't found on your \$PATH."
-    echo "Install it first from https://github.com/darkstardevx/cyberplug"
+    echo "Install it first from https://github.com/cybercore-tech/cyberplug"
 fi
 echo ""
 echo "To make the Cyberplug window float instead of tile, add this line"
