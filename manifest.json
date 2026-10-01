@@ -12,7 +12,7 @@
   },
   "barWidget": {
     "displayName": "Cyberplug (retired mirror)",
-    "description": "Redirect: install from darkstardevx/cyberplug",
+    "description": "Redirect: install from cybercore-tech/cyberplug",
     "category": "Utilities",
     "allowMultiple": false,
     "defaultSection": "right"
